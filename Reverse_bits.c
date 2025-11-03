@@ -12,7 +12,7 @@ void main()
     {
         unsigned char bit = num & 1;
         num = num >> 1; // right shift
-        result = (result << 1) | bit;
+        result = (result << 1) | bit; // Left shift the result by 1 
     }
     printf("Reversed number is : %hhu\n ", result);
 
